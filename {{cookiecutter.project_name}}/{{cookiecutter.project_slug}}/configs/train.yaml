@@ -46,4 +46,6 @@ test: True
 ckpt_path: null
 
 # seed for random number generators in pytorch, numpy and python.random
-seed: null
+seed: 728
+
+# optimized_metric: "val/mrr"  # TODO: change this to your validation metric, used for hyperparameter optimization
