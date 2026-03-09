@@ -3,9 +3,9 @@ from __future__ import annotations
 import torch
 import torch.nn as nn
 
-from {{name}}.basic.activation import get_activation_layer
-from {{name}}.basic.features import BaseFeature, SequenceFeature, SparseFeature
-from {{name}}.utils.pylogger import RankedLogger
+from {{cookiecutter.project_slug}}.basic.activation import get_activation_layer
+from {{cookiecutter.project_slug}}.basic.features import BaseFeature, SequenceFeature, SparseFeature
+from {{cookiecutter.project_slug}}.utils.pylogger import RankedLogger
 
 log = RankedLogger(__name__)
 

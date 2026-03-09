@@ -3,7 +3,7 @@ from typing import Literal
 
 import torch
 
-from {{name}}.basic.initializers import RandomNormal
+from {{cookiecutter.project_slug}}.basic.initializers import RandomNormal
 
 
 class BaseFeature:
