@@ -5,7 +5,7 @@ description = "{{cookiecutter.project_description}}"
 authors = [{ name = "{{cookiecutter.author}}", email = "{{cookiecutter.email}}" }]
 readme = "README.md"
 keywords = ['python']
-requires-python = ">=3.9,<4.0"
+requires-python = ">=3.9,<=3.11"
 dependencies = [
     # --------- pytorch --------- #
     "torch>=2.6.0",
@@ -151,6 +151,7 @@ ignore = [
     "E731",
     # Consider iterable unpacking instead of concatenation
     "RUF005",
+    "TRY003",
 ]
 
 [tool.ruff.lint.per-file-ignores]
