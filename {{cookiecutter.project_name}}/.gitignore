@@ -10,6 +10,17 @@ __pycache__/
 # C extensions
 *.so
 
+# Ignore the data dir with raw and processed data
+/data
+
+/.vscode
+
+**/.DS_Store
+
+.claude
+
+/checkpoints
+
 # Distribution / packaging
 .Python
 build/
